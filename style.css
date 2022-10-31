@@ -456,7 +456,10 @@ button:hover{
     background-position: center;
     background-repeat: no-repeat;
 }
-
+header h1{
+ font-size:24px;
+ letter-spacing:normal;
+}
 
 }
 
