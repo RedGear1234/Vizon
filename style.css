@@ -247,6 +247,51 @@ button:hover{
 }
 
 
+/* #635bff */
+/* #80e9ff */
+/* Polygon 2  */
+/* Polygon 1  */
+/* Polygon 3  */
+/* triangles */
+/* dark */
+/* light  */
+
+:root{
+    --dark-color:#635bff;
+    --light-color:#80e9ff;
+}
+
+
+svg{
+    cursor: pointer;
+}
+
+#dark{
+    fill: var(--dark-color);
+
+}
+
+#light{
+    fill: var(--light-color);
+}
+
+#Polygon2,#Polygon3,#Polygon1{
+  transition: all 1s ease;
+}
+
+#Polygon3{
+    transform: translateX(-90%);
+
+}
+
+svg:hover #Polygon1{
+ transform: translateX(20%);
+}
+
+svg:hover #Polygon3{
+    transform: translateX(40%);
+    opacity: 0;
+}
 
 
 
@@ -273,6 +318,7 @@ button:hover{
              margin: 0rem 2rem;
              position: relative;
              z-index: 3;
+             width: auto;
              width: auto;
          }
 
@@ -418,48 +464,52 @@ button:hover{
 
 /* ----------------------------------------  */
 #cyberSquad1 .img-div {
-    width: 400px;
-    height: 400px;
-
+    width: 150px;
+    height: 150px;
+    background-size: cover;
 }
 
 #cyberSquad2 .img-div {
-    width: 400px;
-    height: 400px;
-    
+    width: 150px;
+        height: 150px;
+        background-size: cover;
 }
 
 #cyberSquad3 .img-div {
-    width: 400px;
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 150px;
+        height: 150px;
+        background-size: cover;
 }
 
 #cyberSquad4 .img-div {
-    width: 400px;
-     height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 150px;
+        height: 150px;        
+        background-size: cover;
 }
 
 #cyberSquad5 .img-div {
-    width: 400px;
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 150px;
+        height: 150px;
+        background-size: cover;
 }
 
 #cyberSquad6 .img-div {
-    width: 400px;
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 150px;
+        height: 150px;
+        
+        background-size: cover;
 }
+
 header h1{
- font-size:24px;
- letter-spacing:normal;
+    font-size: 24px;
+    font-weight: lighter;
+    letter-spacing: normal;
 }
+
+
+
+
+
 
 }
 
